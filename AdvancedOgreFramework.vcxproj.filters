@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="PoolGame">
+      <UniqueIdentifier>{869f7269-20d1-4b3f-a310-602e97adeb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{04c67a05-fedf-4cdc-bf05-effd9d361da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="FrameWork\Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PoolGame\Core">
+      <UniqueIdentifier>{a27d3b6c-5b02-4460-9a67-d3b53d51f07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PoolGame\Core\Headerdateien">
+      <UniqueIdentifier>{fef8cd1e-1b07-43c7-8af6-38697aaabc4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PoolGame\Core\Quelldateien">
+      <UniqueIdentifier>{386a4108-3796-441c-b16d-0d5a4c7d92d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PoolGame\Snooker">
+      <UniqueIdentifier>{b5cf8376-f1e4-4b2a-9358-80378f572a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PoolGame\Snooker\Headerdateien">
+      <UniqueIdentifier>{22a213f3-2b24-4e45-b22a-cc52069acc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PoolGame\Snooker\Quelldateien">
+      <UniqueIdentifier>{45022f1c-f412-4970-899b-3a29d03c8446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdvancedOgreFramework.cpp">
+      <Filter>FrameWork\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateManager.cpp">
+      <Filter>FrameWork\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DotSceneLoader.cpp">
+      <Filter>FrameWork\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>FrameWork\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>FrameWork\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>FrameWork\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>FrameWork\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionState.cpp">
+      <Filter>FrameWork\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CueGameCore.cpp">
+      <Filter>PoolGame\Core\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoApp.cpp" />
+    <ClCompile Include="PoolBall.cpp">
+      <Filter>PoolGame\Core\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Snooker.cpp">
+      <Filter>PoolGame\Snooker\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>PoolGame\Core\Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvancedOgreFramework.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="AppState.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStateManager.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="DotSceneLoader.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionState.hpp">
+      <Filter>FrameWork\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CueGameCore.hpp">
+      <Filter>PoolGame\Core\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoApp.hpp" />
+    <ClInclude Include="PoolBall.hpp">
+      <Filter>PoolGame\Core\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Snooker.hpp">
+      <Filter>PoolGame\Snooker\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="SnookerInit.hpp">
+      <Filter>PoolGame\Snooker\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.hpp">
+      <Filter>PoolGame\Core\Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ToDo.txt">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+</Project>
